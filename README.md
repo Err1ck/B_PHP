@@ -2,8 +2,8 @@
 <!-- git push --set-upstream origin NOMBRE_DE_LA_NUEVA_BRANCH -->
 ## REGEX
 
-- ## git branch regex
+- ## git switch regex or git checkout regex
 
 ## HTML
 
-- ## git branch html
+- ## git switch html or git checkout html
