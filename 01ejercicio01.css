@@ -1,0 +1,46 @@
+#title-1 {
+    text-align: center;
+    color: green;
+
+    margin-top: 2rem;
+    padding: 2.5rem 4rem;
+
+    background-color: rgb(133, 234, 132);
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.title-2 {
+    text-align: left;
+    color: green;
+
+    margin-left: 4rem;
+}
+
+p {
+    margin: 2rem 4rem;
+}
+
+ol {
+    margin: 2rem 4rem;
+}
+
+.bg-yellow {
+    margin: 1rem 0rem;
+}
+
+div {
+    margin-top: 4rem;
+    display: flex;
+    
+}
+
+a {
+    margin-left: calc(100vh/5);
+    font-size: 20px;
+}
+
+a:hover,
+a:active {
+    background-color: red;
+}
