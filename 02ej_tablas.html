@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,8 +9,10 @@
         table,
         tr,
         td {
-            border: solid 1px black;
+            border: solid 2px black;
         }
+
+        ;
     </style>
 </head>
 
@@ -43,6 +45,47 @@
                 <td>9</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th>
+                    Apartado A
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Ejercicios de tablas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td colspan="2">2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>
+                    Apartado B
+                </th>
+            </tr>
+        </tfoot>
     </table>
 </body>
 
